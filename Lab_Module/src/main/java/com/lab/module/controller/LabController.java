@@ -30,7 +30,7 @@ import com.lab.module.repository.LabRepository;
 		
 		// get all employees
 		@GetMapping("/labs")
-		public List<Lab> getAllEmployees(){
+		public List<Lab> getAllLabs(){
 			return labRepository.findAll();
 		}
 		@PostMapping("/labs")

@@ -1,5 +1,0 @@
-package com.lab.module.repository;
-
-public interface LabRepository {
-
-}
